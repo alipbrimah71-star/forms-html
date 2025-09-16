@@ -1,0 +1,62 @@
+<1DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example</title>
+    
+    <style>
+      h2 {
+        color: green;
+      }
+        
+       * {
+          font-size: 30px;
+          font-weight:500;
+        }
+
+        h3 {
+            color: blue;
+        }
+             
+        h4 {
+          color:palevioletred;
+        }
+
+        .myclass {
+            color:darkorange
+        }
+
+        #myid {
+            color:mediumpurple
+        }
+
+        h5, p {
+            color: maroon;
+}
+    </style>
+</head>
+<body>
+
+<hr>
+
+<h1 style="outline-color: red;">INLINE CSS EXAMPLE</h1>
+
+<h2>INTERNAL CSS EXAMPLE</h2>
+
+<h3>INTERNAL CSS EXAMPLE</h3>
+<hr>
+
+<h4>INTERNAL CSS EXAMPLE</h4>
+<h4>INTERNAL CSS EXAMPLE</h2>
+<hr>
+
+<h2 class="myclass">CLASS SELECTION EXAMPLE</h2>
+<h2 id="myid">ID SELECTION EXAMPLE</h2>
+<h2 class="myclass">CLASS AND ID SELECTION EXAMPLE</h2>
+<hr>
+
+<h5>GROUP SELECTION EXAMPLE</h5>
+<p>GROUP SELECTION EXAMPLE</p>
+<hr>
+</body>
+</html>
+
